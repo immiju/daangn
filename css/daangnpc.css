@@ -1,0 +1,200 @@
+@charset "utf-8";
+@font-face {
+  font-family:"NanumSquareNeo-Variable";
+  src:url("../font/NanumSquareNeo-Variable.woff");
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	overflow-X:hidden;
+	font-family:'NanumSquareNeo-Variable';
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+/* -------------------- header -------------------- */
+#momenu-open i{
+	display:none;
+}
+#gnb-wrap{
+	width:300px;
+	position:absolute;
+	left:50%;
+	top:0;
+	transform:translate(-50%,0);
+	display:block !important;
+	z-index:1;
+}
+#gnb > .sch-btn,
+#gnb > .lang-btn{
+	display:none;
+}
+#gnb{
+	display:flex;
+	justify-content:space-between;
+}
+#gnb li a{
+	padding:15px 10px;
+	font-size:17px;
+	font-weight:600;
+}
+
+/* -------------------- main-visual -------------------- */
+
+#main-visual{
+	background:url(../img/pc-main.jpg) no-repeat center center;
+	background-size:cover;
+}
+.main-title{
+    width:80%;
+}
+.main-title h1{
+    font-size:38px;
+	margin-bottom:25px;
+}
+.main-title a{
+    font-size:17px;
+}
+.main-title i{
+    margin-left:10px;
+}
+
+/* -------------------- section-01 -------------------- */
+
+#section-01{
+	height:650px;
+}
+#section-01 > .inner{
+	max-width:980px;
+    margin-top:10px;
+}
+.row-01{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+    margin:5px 0;
+}
+.row-02{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+.cont{
+	width:480px;
+}
+.txt{
+	width:480px;
+	font-size:16px;
+	padding:18px;
+}
+.txt span{
+	display:inline-block;
+}
+.img-01{
+    background:url("../img/pc-cont-01.jpg") no-repeat center center;
+	background-size:cover;
+}
+.img-02{
+    background:url("../img/pc-cont-02.jpg") no-repeat center center;
+	background-size:cover;
+}
+.img-03{
+    background:url("../img/pc-cont-03.jpg") no-repeat center center;
+	background-size:cover;
+}
+.img-04{
+    background:url("../img/pc-cont-04.jpg") no-repeat center center;
+	background-size:cover;
+}
+
+/* -------------------- section-02 -------------------- */
+
+#section-02{
+	height:420px;
+}
+#section-02 > .inner{
+	width:980px;
+	height:300px;
+}
+.video-a{
+	width:49%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.video-b{
+	width:49%;
+	height:100%;
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+/* -------------------- footer -------------------- */
+footer{
+    padding-top:30px;
+}
+.footer-row{
+	width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.app-downroad{
+	width:49%;
+	padding:0 10px;
+}
+.app-downroad p{
+	display:block;
+}
+.app-down-btn{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.app-left{
+	display:inline-block;
+	width:48%;
+	height:80px;
+	margin-right:10px;
+	padding:3px;
+}
+.app-right{
+	display:inline-block;
+	width:48%;
+	height:80px;
+	padding:3px;
+}
+
+.cs-info{
+	width:49%;
+}
+.cs-info h3{
+    font-size:16px;
+}
+.cs-info p:nth-of-type(1){
+    font-size:18px;
+}
+.cs-info p i{
+    font-size:16px;
+}
+.cs-info p{
+    font-size:13px;
+}
+.sns{
+	width:100%;
+}
+.sns > ul{
+    width:30%;
+    margin:auto;
+}
+.sns li i{
+    font-size:22px;
+}
